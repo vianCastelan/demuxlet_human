@@ -18,7 +18,7 @@ cd /mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clea
 
 echo "### --- Performing deconvolution of Data --- ###"
 
-/mnt/BioHome/ciro/bin/demuxlet/demuxlet --sam /mnt/BioAdHoc/Groups/vd-vijay/cramirez/hayley/raw/NV016/10x_014/COUNTSh/003_10x_014_Shilpi_2_23Jul19/outs/possorted_genome_bam.bam --tag-group CB --tag-UMI UB --vcf /mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/vcf_per_library/003_10x_014_Shilpi_2_23Jul19.vcf --field GT --geno-error 0.1 --sm-list /mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/vcf_per_library/samples_list_003.txt --out 003_10x_014_Shilpi_2_23Jul19 --group-list barcodes.txt
+/mnt/BioHome/ciro/bin/demuxlet/demuxlet --sam /mnt/BioAdHoc/Groups/vd-vijay/cramirez/hayley/raw/NV016/10x_014/COUNTSh/003_10x_014_Shilpi_2_23Jul19/outs/possorted_genome_bam.bam --tag-group CB --tag-UMI UB --vcf /mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/vcf_per_library/003_10x_014_Shilpi_2_23Jul19.vcf  --field GT --geno-error 0.1 --min-mac 1 --min-callrate 0.50 --sm-list /mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/vcf_per_library/samples_list_003.txt --out 003_10x_014_Shilpi_2_23Jul19 --alpha 0 --alpha 0.5 --doublet-prior 0.50 --sam-verbose 1000000 --vcf-verbose 10000 --cap-BQ 40 --min-BQ 13 --min-MQ 20  --min-TD 0 --excl-flag 3844 --group-list barcodes.txt --min-total 0 --min-uniq 0 --min-snp 0
 
 
 echo "Job completed! \n Check for errors if any."

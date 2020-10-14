@@ -3,31 +3,34 @@ Job completed! \n Check for errors if any.
 
          ----- Job Summary Statistics -----
                     Queue: default                  
-                   Job ID: 3734734.herman.hpc.lji.org
+                   Job ID: 3734763.herman.hpc.lji.org
                  Job Name: demuxlet_004_10x_014_Shilpi_3_24Jul19
-                Node name: compute-0-2.hpc.lji.org  
-Job duration on this node: 01:15:07                 
-          Node Multiplier: 0.599                    
-      Normalized walltime: 00:45:00                 
+                Node name: compute-2-2.hpc.lji.org  
+Job duration on this node: 01:05:17                 
+          Node Multiplier: .883                     
+      Normalized walltime: 00:57:39                 
 
 Job Requested resources:
     nodes=1:ppn=5,mem=40gb,walltime=10:00:00,neednodes=1:ppn=5
 Used resources (as reported by Torque):
-    cput=01:15:04,vmem=321380kb,walltime=00:45:00,mem=202376kb,energy_used=0
+    cput=01:05:06,vmem=321408kb,walltime=00:57:38,mem=202388kb,energy_used=0
 
 
 Additional Statistics (cgroup stats):
 
-CPU core numbers on node assigned for usage: 0-4
+CPU core numbers on node assigned for usage: 2-6
 CPU work distribution:
-CPU Core #1: 5.16%
-CPU Core #2: 94.83%
+CPU Core #2: 21.76%
+CPU Core #3: 60.01%
+CPU Core #4: 3.83%
+CPU Core #5: 7.16%
+CPU Core #6: 7.22%
 
 Memory requested: 40960 MB
-Memory used:      18928 MB
+Memory used:      24663 MB
 Swap used:        0 MB
 
 Number times max memory limit reached or attempted to exceed: 0
 
-Max Memory Used / Memory Requested: 46.2130%
+Max Memory Used / Memory Requested: 60.2129%
 
