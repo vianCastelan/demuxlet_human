@@ -18,7 +18,7 @@ cd /mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clea
 
 echo "### --- Performing deconvolution of Data --- ###"
 
-/mnt/BioHome/ciro/bin/demuxlet/demuxlet --sam /mnt/BioAdHoc/Groups/vd-vijay/cramirez/hayley/raw/NV016/10x_014/COUNTSh/004_10x_014_Shilpi_3_24Jul19/outs/possorted_genome_bam.bam --tag-group CB --tag-UMI UB --vcf /mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/vcf_per_library/004_10x_014_Shilpi_3_24Jul19.vcf --field GT --geno-error 0.01 --sm-list /mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/vcf_per_library/samples_list_004.txt --out 004_10x_014_Shilpi_3_24Jul19 --group-list barcodes.txt
+/mnt/BioHome/ciro/bin/demuxlet/demuxlet --sam /mnt/BioAdHoc/Groups/vd-vijay/cramirez/hayley/raw/NV016/10x_014/COUNTSh/004_10x_014_Shilpi_3_24Jul19/outs/possorted_genome_bam.bam --tag-group CB --tag-UMI UB --vcf /mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/genotypes.norm.filter.snps.hd.sorted.vcf --field GT --geno-error 0.1 --sm-list /mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/vcf_per_library/samples_list_004.txt --out 004_10x_014_Shilpi_3_24Jul19 --group-list barcodes.txt
 
 #Minimum number of SNPs with coverage for a droplet/cell to be considered*
 #*All flags commented with * were set as default

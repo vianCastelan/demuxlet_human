@@ -3,37 +3,36 @@ Job completed! \n Check for errors if any.
 
          ----- Job Summary Statistics -----
                     Queue: default                  
-                   Job ID: 3734682.herman.hpc.lji.org
+                   Job ID: 3734696.herman.hpc.lji.org
                  Job Name: demuxlet_003_10x_014_Shilpi_2_23Jul19
-                Node name: compute-0-7.hpc.lji.org  
-Job duration on this node: 01:01:10                 
+                Node name: compute-0-1.hpc.lji.org  
+Job duration on this node: 01:00:45                 
           Node Multiplier: 0.599                    
-      Normalized walltime: 00:36:38                 
+      Normalized walltime: 00:36:23                 
 
 Job Requested resources:
     nodes=1:ppn=10,mem=40gb,walltime=12:00:00,neednodes=1:ppn=10
 Used resources (as reported by Torque):
-    cput=01:00:59,vmem=636220kb,walltime=00:36:38,mem=513836kb,energy_used=0
+    cput=01:00:42,vmem=636140kb,walltime=00:36:23,mem=516496kb,energy_used=0
 
 
 Additional Statistics (cgroup stats):
 
-CPU core numbers on node assigned for usage: 3-12
+CPU core numbers on node assigned for usage: 0-5,11-14
 CPU work distribution:
-CPU Core #5: 14.39%
-CPU Core #6: 3.93%
-CPU Core #7: 31.27%
-CPU Core #8: 4.70%
-CPU Core #9: 3.83%
-CPU Core #10: 8.51%
-CPU Core #11: 14.02%
-CPU Core #12: 19.30%
+CPU Core #0: 4.11%
+CPU Core #1: 0.86%
+CPU Core #2: 8.61%
+CPU Core #3: 12.11%
+CPU Core #4: 16.51%
+CPU Core #13: 44.58%
+CPU Core #14: 13.19%
 
 Memory requested: 40960 MB
-Memory used:      11855 MB
+Memory used:      34759 MB
 Swap used:        0 MB
 
 Number times max memory limit reached or attempted to exceed: 0
 
-Max Memory Used / Memory Requested: 28.9445%
+Max Memory Used / Memory Requested: 84.8618%
 
