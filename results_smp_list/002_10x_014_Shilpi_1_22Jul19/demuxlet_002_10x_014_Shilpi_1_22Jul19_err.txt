@@ -1,0 +1,278 @@
+cat: /var/spool/torque/aux//3734683.herman.hpc.lji.orggpu: No such file or directory
+
+Available Options
+
+The following parameters are available. Ones with "[]" are in effect:
+   Options for input SAM/BAM/CRAM : --sam [/mnt/BioAdHoc/Groups/vd-vijay/cramirez/hayley/raw/NV016/10x_014/COUNTSh/002_10x_014_Shilpi_1_22Jul19/outs/possorted_genome_bam.bam],
+                                    --tag-group [CB], --tag-UMI [UB]
+        Options for input VCF/BCF : --vcf [/mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/vcf_per_library/002_10x_014_Shilpi_1_22Jul19.vcf],
+                                    --field [GT], --geno-error [0.01],
+                                    --min-mac [1], --min-callrate [0.50], --sm,
+                                    --sm-list [/mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/vcf_per_library/samples_list_002.txt]
+                   Output Options : --out [002_10x_014_Shilpi_1_22Jul19],
+                                    --alpha, --write-pair,
+                                    --doublet-prior [0.50],
+                                    --sam-verbose [1000000],
+                                    --vcf-verbose [10000]
+           Read filtering Options : --cap-BQ [40], --min-BQ [13],
+                                    --min-MQ [20], --min-TD,
+                                    --excl-flag [3844]
+   Cell/droplet filtering options : --group-list [barcodes.txt], --min-total,
+                                    --min-uniq, --min-snp
+
+Run with --help for more detailed help messages of each argument.
+
+NOTICE [2020/10/13 23:51:03] - Finished loading 735 droplet/cell barcodes to consider
+NOTICE [2020/10/13 23:51:03] - Finished loading 4 IDs from /mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/vcf_per_library/samples_list_002.txt
+NOTICE [2020/10/13 23:51:03] - Finished identifying 4 samples to load from VCF/BCF
+NOTICE [2020/10/13 23:51:03] - Reading 0 reads at 1:1 and skipping 0
+NOTICE [2020/10/13 23:51:03] - WARNING: Cannot find Droplet/Cell tag UB from 18-th read A00475:101:HLCMTDSXX:3:2617:6659:33348 at 1:10151-10221. Treating all of them as a single group
+NOTICE [2020/10/13 23:51:03] - WARNING: Cannot find Droplet/Cell tag UB from 19-th read A00475:101:HLCMTDSXX:3:2617:6253:33646 at 1:10151-10221. Treating all of them as a single group
+NOTICE [2020/10/13 23:51:03] - WARNING: Cannot find Droplet/Cell tag UB from 20-th read A00475:101:HLCMTDSXX:4:1671:28257:12383 at 1:10151-10221. Treating all of them as a single group
+NOTICE [2020/10/13 23:51:03] - WARNING: Cannot find Droplet/Cell tag UB from 21-th read A00475:101:HLCMTDSXX:4:2416:6533:3944 at 1:10151-10221. Treating all of them as a single group
+NOTICE [2020/10/13 23:51:03] - WARNING: Cannot find Droplet/Cell tag UB from 22-th read A00475:101:HLCMTDSXX:4:2618:11686:11083 at 1:10151-10221. Treating all of them as a single group
+NOTICE [2020/10/13 23:51:03] - WARNING: Cannot find Droplet/Cell tag UB from 2805-th read A00475:101:HLCMTDSXX:3:2211:20961:35196 at 1:16182-16282. Treating all of them as a single group
+NOTICE [2020/10/13 23:51:03] - WARNING: Cannot find Droplet/Cell tag UB from 8077-th read A00475:101:HLCMTDSXX:2:1375:23927:28745 at 1:135119-135220. Treating all of them as a single group
+NOTICE [2020/10/13 23:51:03] - WARNING: Cannot find Droplet/Cell tag UB from 8078-th read A00475:101:HLCMTDSXX:2:1375:23059:29121 at 1:135119-135220. Treating all of them as a single group
+NOTICE [2020/10/13 23:51:03] - WARNING: Cannot find Droplet/Cell tag UB from 8667-th read A00475:101:HLCMTDSXX:2:2112:19723:10942 at 1:157963-158064. Treating all of them as a single group
+NOTICE [2020/10/13 23:51:03] - WARNING: Cannot find Droplet/Cell tag UB from 8668-th read A00475:101:HLCMTDSXX:2:2112:19108:11162 at 1:157963-158064. Treating all of them as a single group
+NOTICE [2020/10/13 23:51:03] - WARNING: Suppressing 10+ missing Droplet/Cell tag warnings...
+NOTICE [2020/10/13 23:51:03] - WARNING: Cannot find UMI tag UB from 19608-th read A00475:101:HLCMTDSXX:2:2140:32994:25160 at 1:417959-418031. Treating all of them as a single UMI
+NOTICE [2020/10/13 23:51:04] - WARNING: Cannot find UMI tag UB from 421068-th read A00475:101:HLCMTDSXX:4:2270:32976:7091 at 1:1203825-1203925. Treating all of them as a single UMI
+NOTICE [2020/10/13 23:51:04] - WARNING: Cannot find UMI tag UB from 430071-th read A00475:101:HLCMTDSXX:2:2336:32985:34162 at 1:1211590-1211768. Treating all of them as a single UMI
+NOTICE [2020/10/13 23:51:04] - WARNING: Cannot find UMI tag UB from 436903-th read A00475:101:HLCMTDSXX:3:2165:12364:12164 at 1:1217147-1217220. Treating all of them as a single UMI
+NOTICE [2020/10/13 23:51:04] - WARNING: Cannot find UMI tag UB from 456704-th read A00475:101:HLCMTDSXX:2:1431:33003:7075 at 1:1311671-1311771. Treating all of them as a single UMI
+NOTICE [2020/10/13 23:51:04] - WARNING: Cannot find UMI tag UB from 488900-th read A00475:101:HLCMTDSXX:3:2208:22164:37059 at 1:1401997-1402097. Treating all of them as a single UMI
+NOTICE [2020/10/13 23:51:04] - WARNING: Cannot find UMI tag UB from 490922-th read A00475:101:HLCMTDSXX:2:1351:33013:12602 at 1:1402070-1402167. Treating all of them as a single UMI
+NOTICE [2020/10/13 23:51:05] - WARNING: Cannot find UMI tag UB from 647032-th read A00475:101:HLCMTDSXX:3:1244:33013:24345 at 1:1803683-1803783. Treating all of them as a single UMI
+NOTICE [2020/10/13 23:51:05] - WARNING: Cannot find UMI tag UB from 656470-th read A00475:101:HLCMTDSXX:2:1542:2528:9690 at 1:1858299-1858372. Treating all of them as a single UMI
+NOTICE [2020/10/13 23:51:05] - WARNING: Cannot find UMI tag UB from 656471-th read A00475:101:HLCMTDSXX:2:1542:4372:11788 at 1:1858299-1858372. Treating all of them as a single UMI
+NOTICE [2020/10/13 23:51:05] - WARNING: Suppressing 10+ UMI warnings...
+NOTICE [2020/10/13 23:51:06] - Reading 1000000 reads at 1:6186779 and skipping 864622
+NOTICE [2020/10/13 23:51:11] - Reading 3000000 reads at 1:23309928 and skipping 2409219
+NOTICE [2020/10/13 23:51:16] - Reading 10000 variants at 1:26441040, Skipping 7178, Missing 0.
+NOTICE [2020/10/13 23:51:16] - Reading 5000000 reads at 1:26280880 and skipping 4179427
+NOTICE [2020/10/13 23:51:18] - Reading 6000000 reads at 1:28982576 and skipping 5002102
+NOTICE [2020/10/13 23:51:28] - Reading 20000 variants at 1:61074385, Skipping 14564, Missing 0.
+NOTICE [2020/10/13 23:51:38] - Reading 30000 variants at 1:100183042, Skipping 21044, Missing 0.
+NOTICE [2020/10/13 23:51:39] - Reading 16000000 reads at 1:109555328 and skipping 12733582
+NOTICE [2020/10/13 23:51:43] - Reading 17000000 reads at 1:117657338 and skipping 13308983
+NOTICE [2020/10/13 23:51:51] - Reading 22000000 reads at 1:153990763 and skipping 17705816
+NOTICE [2020/10/13 23:51:54] - Reading 24000000 reads at 1:154608493 and skipping 19574410
+NOTICE [2020/10/13 23:51:56] - Reading 40000 variants at 1:157237374, Skipping 28661, Missing 0.
+NOTICE [2020/10/13 23:52:02] - Reading 26000000 reads at 1:179028578 and skipping 20801020
+NOTICE [2020/10/13 23:52:04] - Reading 50000 variants at 1:187177434, Skipping 35789, Missing 0.
+NOTICE [2020/10/13 23:52:08] - Reading 28000000 reads at 1:205351273 and skipping 21908569
+NOTICE [2020/10/13 23:52:10] - Reading 60000 variants at 1:220674847, Skipping 42819, Missing 0.
+NOTICE [2020/10/13 23:52:11] - Reading 29000000 reads at 1:226000202 and skipping 22578734
+NOTICE [2020/10/13 23:52:13] - Reading 30000000 reads at 1:235155060 and skipping 23205212
+NOTICE [2020/10/13 23:52:17] - Reading 70000 variants at 10:1421270, Skipping 49486, Missing 0.
+NOTICE [2020/10/13 23:52:30] - Reading 80000 variants at 10:30285919, Skipping 55744, Missing 0.
+NOTICE [2020/10/13 23:52:35] - Reading 34000000 reads at 10:62104397 and skipping 25369500
+NOTICE [2020/10/13 23:52:39] - Reading 35000000 reads at 10:72326840 and skipping 26066145
+NOTICE [2020/10/13 23:52:39] - Reading 90000 variants at 10:73771794, Skipping 62426, Missing 0.
+NOTICE [2020/10/13 23:52:48] - Reading 100000 variants at 10:110918573, Skipping 69549, Missing 0.
+NOTICE [2020/10/13 23:52:58] - Reading 110000 variants at 11:2294686, Skipping 76292, Missing 0.
+NOTICE [2020/10/13 23:53:06] - Reading 120000 variants at 11:27837294, Skipping 83229, Missing 0.
+NOTICE [2020/10/13 23:53:07] - Reading 45000000 reads at 11:35198713 and skipping 33623300
+NOTICE [2020/10/13 23:53:10] - Reading 46000000 reads at 11:57742878 and skipping 34340069
+NOTICE [2020/10/13 23:53:15] - Reading 130000 variants at 11:64505532, Skipping 90507, Missing 0.
+NOTICE [2020/10/13 23:53:28] - Reading 56000000 reads at 11:66139476 and skipping 43037978
+NOTICE [2020/10/13 23:53:37] - Reading 140000 variants at 11:97764023, Skipping 97810, Missing 0.
+NOTICE [2020/10/13 23:53:46] - Reading 150000 variants at 11:126397820, Skipping 104715, Missing 0.
+NOTICE [2020/10/13 23:53:57] - Reading 65000000 reads at 12:12112059 and skipping 49519298
+NOTICE [2020/10/13 23:54:00] - Reading 160000 variants at 12:18826042, Skipping 111345, Missing 0.
+NOTICE [2020/10/13 23:54:07] - Reading 170000 variants at 12:55431000, Skipping 118274, Missing 0.
+NOTICE [2020/10/13 23:54:12] - Reading 71000000 reads at 12:56713618 and skipping 54209119
+NOTICE [2020/10/13 23:54:23] - Reading 180000 variants at 12:95690996, Skipping 125172, Missing 0.
+NOTICE [2020/10/13 23:54:28] - Reading 76000000 reads at 12:108852629 and skipping 57982803
+NOTICE [2020/10/13 23:54:34] - Reading 190000 variants at 12:124950420, Skipping 132144, Missing 0.
+NOTICE [2020/10/13 23:54:43] - Reading 83000000 reads at 13:32707236 and skipping 63283559
+NOTICE [2020/10/13 23:54:43] - Reading 200000 variants at 13:38172755, Skipping 138596, Missing 0.
+NOTICE [2020/10/13 23:54:51] - Reading 86000000 reads at 13:51705247 and skipping 65698941
+NOTICE [2020/10/13 23:54:53] - Reading 210000 variants at 13:78698086, Skipping 145035, Missing 0.
+NOTICE [2020/10/13 23:54:56] - Reading 220000 variants at 13:113964148, Skipping 151260, Missing 0.
+NOTICE [2020/10/13 23:55:06] - Reading 230000 variants at 14:51285135, Skipping 158198, Missing 0.
+NOTICE [2020/10/13 23:55:13] - Reading 93000000 reads at 14:68794901 and skipping 70607057
+NOTICE [2020/10/13 23:55:19] - Reading 240000 variants at 14:85297042, Skipping 165150, Missing 0.
+NOTICE [2020/10/13 23:55:23] - Reading 96000000 reads at 14:99264749 and skipping 72726686
+NOTICE [2020/10/13 23:55:28] - Reading 97000000 reads at 14:105978702 and skipping 73263359
+NOTICE [2020/10/13 23:55:29] - Reading 250000 variants at 15:33194233, Skipping 171862, Missing 0.
+NOTICE [2020/10/13 23:55:40] - Reading 260000 variants at 15:62896873, Skipping 178953, Missing 0.
+NOTICE [2020/10/13 23:55:56] - Reading 270000 variants at 15:93734446, Skipping 185974, Missing 0.
+NOTICE [2020/10/13 23:55:59] - Reading 110000000 reads at 16:2332506 and skipping 83307274
+NOTICE [2020/10/13 23:56:03] - Reading 280000 variants at 16:12450396, Skipping 192748, Missing 0.
+NOTICE [2020/10/13 23:56:09] - Reading 113000000 reads at 16:18845577 and skipping 85207515
+NOTICE [2020/10/13 23:56:14] - Reading 115000000 reads at 16:50337924 and skipping 86798505
+NOTICE [2020/10/13 23:56:15] - Reading 290000 variants at 16:57758547, Skipping 199917, Missing 0.
+NOTICE [2020/10/13 23:56:16] - Reading 116000000 reads at 16:61055718 and skipping 87199394
+NOTICE [2020/10/13 23:56:20] - Reading 300000 variants at 16:84458205, Skipping 206731, Missing 0.
+NOTICE [2020/10/13 23:56:37] - Reading 122000000 reads at 17:8382149 and skipping 91815665
+NOTICE [2020/10/13 23:56:38] - Reading 310000 variants at 17:12886229, Skipping 213900, Missing 0.
+NOTICE [2020/10/13 23:57:00] - Reading 133000000 reads at 17:43368016 and skipping 101098724
+NOTICE [2020/10/13 23:57:00] - Reading 320000 variants at 17:45308156, Skipping 221456, Missing 0.
+NOTICE [2020/10/13 23:57:10] - Reading 136000000 reads at 17:65017284 and skipping 103006478
+NOTICE [2020/10/13 23:57:13] - Reading 330000 variants at 17:75059025, Skipping 228794, Missing 0.
+NOTICE [2020/10/13 23:57:16] - Reading 138000000 reads at 17:77140116 and skipping 104532384
+NOTICE [2020/10/13 23:57:25] - Reading 340000 variants at 18:23249056, Skipping 235569, Missing 0.
+NOTICE [2020/10/13 23:57:32] - Reading 350000 variants at 18:60218918, Skipping 242119, Missing 0.
+NOTICE [2020/10/13 23:57:41] - Reading 360000 variants at 19:7928478, Skipping 249011, Missing 0.
+NOTICE [2020/10/13 23:57:54] - Reading 151000000 reads at 19:18280416 and skipping 114189279
+NOTICE [2020/10/13 23:57:59] - Reading 153000000 reads at 19:23827750 and skipping 115763430
+NOTICE [2020/10/13 23:58:01] - Reading 370000 variants at 19:36133884, Skipping 256824, Missing 0.
+NOTICE [2020/10/13 23:58:02] - Reading 154000000 reads at 19:36656377 and skipping 116452293
+NOTICE [2020/10/13 23:58:04] - Reading 155000000 reads at 19:39433719 and skipping 117281695
+NOTICE [2020/10/13 23:58:10] - Reading 157000000 reads at 19:46861148 and skipping 118863815
+NOTICE [2020/10/13 23:58:21] - Reading 380000 variants at 19:56028843, Skipping 264796, Missing 0.
+NOTICE [2020/10/13 23:58:28] - Reading 390000 variants at 2:24362544, Skipping 271396, Missing 0.
+NOTICE [2020/10/13 23:58:34] - Reading 166000000 reads at 2:42120573 and skipping 126263375
+NOTICE [2020/10/13 23:58:39] - Reading 400000 variants at 2:52909619, Skipping 278219, Missing 0.
+NOTICE [2020/10/13 23:58:40] - Reading 167000000 reads at 2:55233382 and skipping 126890969
+NOTICE [2020/10/13 23:58:50] - Reading 410000 variants at 2:89070093, Skipping 284969, Missing 0.
+NOTICE [2020/10/13 23:58:52] - Reading 173000000 reads at 2:101697682 and skipping 131777339
+NOTICE [2020/10/13 23:58:55] - Reading 174000000 reads at 2:127063556 and skipping 132460665
+NOTICE [2020/10/13 23:58:57] - Reading 420000 variants at 2:133966409, Skipping 292091, Missing 0.
+NOTICE [2020/10/13 23:59:01] - Reading 176000000 reads at 2:160395374 and skipping 133674012
+NOTICE [2020/10/13 23:59:03] - Reading 430000 variants at 2:171541144, Skipping 299085, Missing 0.
+NOTICE [2020/10/13 23:59:11] - Reading 179000000 reads at 2:196135477 and skipping 135361885
+NOTICE [2020/10/13 23:59:14] - Reading 180000000 reads at 2:203190927 and skipping 135939741
+NOTICE [2020/10/13 23:59:16] - Reading 440000 variants at 2:207171312, Skipping 306183, Missing 0.
+NOTICE [2020/10/13 23:59:17] - Reading 181000000 reads at 2:216498844 and skipping 136654442
+NOTICE [2020/10/13 23:59:24] - Reading 450000 variants at 2:234854552, Skipping 313067, Missing 0.
+NOTICE [2020/10/13 23:59:28] - Reading 185000000 reads at 20:7996447 and skipping 139749623
+NOTICE [2020/10/13 23:59:29] - Reading 460000 variants at 20:18462492, Skipping 319491, Missing 0.
+NOTICE [2020/10/13 23:59:31] - Reading 187000000 reads at 20:25752634 and skipping 141567989
+NOTICE [2020/10/13 23:59:33] - Reading 188000000 reads at 20:34556096 and skipping 142377122
+NOTICE [2020/10/13 23:59:39] - Reading 470000 variants at 20:53118032, Skipping 326605, Missing 0.
+NOTICE [2020/10/13 23:59:48] - Reading 191000000 reads at 20:62387105 and skipping 144045079
+NOTICE [2020/10/14 00:00:47] - Reading 480000 variants at 21:34632925, Skipping 333317, Missing 0.
+NOTICE [2020/10/14 00:00:52] - Reading 490000 variants at 22:30793116, Skipping 340442, Missing 0.
+NOTICE [2020/10/14 00:00:52] - Reading 246000000 reads at 22:31293117 and skipping 197666763
+NOTICE [2020/10/14 00:00:54] - Reading 247000000 reads at 22:37948761 and skipping 198523331
+NOTICE [2020/10/14 00:00:59] - Reading 500000 variants at 3:3920408, Skipping 347218, Missing 0.
+NOTICE [2020/10/14 00:01:01] - Reading 249000000 reads at 3:12342225 and skipping 199879244
+NOTICE [2020/10/14 00:01:05] - Reading 251000000 reads at 3:18425740 and skipping 201558245
+NOTICE [2020/10/14 00:01:09] - Reading 510000 variants at 3:33552973, Skipping 353601, Missing 0.
+NOTICE [2020/10/14 00:01:14] - Reading 255000000 reads at 3:50090440 and skipping 204796249
+NOTICE [2020/10/14 00:01:17] - Reading 520000 variants at 3:63681498, Skipping 361058, Missing 0.
+NOTICE [2020/10/14 00:01:20] - Reading 257000000 reads at 3:100301252 and skipping 206127654
+NOTICE [2020/10/14 00:01:23] - Reading 530000 variants at 3:108619666, Skipping 367630, Missing 0.
+NOTICE [2020/10/14 00:01:26] - Reading 259000000 reads at 3:123508248 and skipping 207387855
+NOTICE [2020/10/14 00:01:30] - Reading 540000 variants at 3:142599306, Skipping 374854, Missing 0.
+NOTICE [2020/10/14 00:01:39] - Reading 550000 variants at 3:175219704, Skipping 381496, Missing 0.
+NOTICE [2020/10/14 00:01:46] - Reading 560000 variants at 4:3576690, Skipping 388334, Missing 0.
+NOTICE [2020/10/14 00:01:49] - Reading 570000 variants at 4:35814521, Skipping 394829, Missing 0.
+NOTICE [2020/10/14 00:01:51] - Reading 267000000 reads at 4:40225865 and skipping 213029946
+NOTICE [2020/10/14 00:01:55] - Reading 268000000 reads at 4:75673280 and skipping 213606914
+NOTICE [2020/10/14 00:01:55] - Reading 580000 variants at 4:76575266, Skipping 401538, Missing 0.
+NOTICE [2020/10/14 00:01:58] - Reading 269000000 reads at 4:90838498 and skipping 214096236
+NOTICE [2020/10/14 00:01:59] - Reading 270000000 reads at 4:90838851 and skipping 215035587
+NOTICE [2020/10/14 00:02:06] - Reading 590000 variants at 4:114491267, Skipping 408404, Missing 0.
+NOTICE [2020/10/14 00:02:08] - Reading 274000000 reads at 4:150614640 and skipping 218216853
+NOTICE [2020/10/14 00:02:11] - Reading 600000 variants at 4:156353245, Skipping 415210, Missing 0.
+NOTICE [2020/10/14 00:02:13] - Reading 610000 variants at 4:188600912, Skipping 421561, Missing 0.
+NOTICE [2020/10/14 00:02:15] - Reading 620000 variants at 5:31775482, Skipping 427873, Missing 0.
+NOTICE [2020/10/14 00:02:16] - Reading 278000000 reads at 5:33162372 and skipping 221561101
+NOTICE [2020/10/14 00:02:19] - Reading 279000000 reads at 5:40834195 and skipping 222252547
+NOTICE [2020/10/14 00:02:24] - Reading 282000000 reads at 5:56504888 and skipping 224823879
+NOTICE [2020/10/14 00:02:28] - Reading 630000 variants at 5:76662767, Skipping 434363, Missing 0.
+NOTICE [2020/10/14 00:02:30] - Reading 284000000 reads at 5:77785771 and skipping 226129518
+NOTICE [2020/10/14 00:02:38] - Reading 640000 variants at 5:117012982, Skipping 441098, Missing 0.
+NOTICE [2020/10/14 00:02:50] - Reading 650000 variants at 5:150746508, Skipping 448278, Missing 0.
+NOTICE [2020/10/14 00:02:56] - Reading 293000000 reads at 5:177884361 and skipping 232632298
+NOTICE [2020/10/14 00:02:59] - Reading 660000 variants at 6:381217, Skipping 454943, Missing 0.
+NOTICE [2020/10/14 00:03:06] - Reading 296000000 reads at 6:26402489 and skipping 234656218
+NOTICE [2020/10/14 00:03:07] - Reading 670000 variants at 6:29365645, Skipping 461176, Missing 0.
+NOTICE [2020/10/14 00:03:42] - Reading 301000000 reads at 6:35470178 and skipping 238342230
+NOTICE [2020/10/14 00:03:46] - Reading 302000000 reads at 6:39958523 and skipping 239016769
+NOTICE [2020/10/14 00:03:46] - Reading 680000 variants at 6:41752737, Skipping 466508, Missing 0.
+NOTICE [2020/10/14 00:03:57] - Reading 690000 variants at 6:85210743, Skipping 473364, Missing 0.
+NOTICE [2020/10/14 00:04:05] - Reading 700000 variants at 6:126710707, Skipping 479983, Missing 0.
+NOTICE [2020/10/14 00:04:15] - Reading 314000000 reads at 6:151225862 and skipping 248192274
+NOTICE [2020/10/14 00:04:19] - Reading 710000 variants at 6:159062992, Skipping 486744, Missing 0.
+NOTICE [2020/10/14 00:04:20] - Reading 315000000 reads at 6:159751765 and skipping 248671878
+NOTICE [2020/10/14 00:04:27] - Reading 720000 variants at 7:14813553, Skipping 493133, Missing 0.
+NOTICE [2020/10/14 00:04:27] - Reading 317000000 reads at 7:16658772 and skipping 250211896
+NOTICE [2020/10/14 00:04:29] - Reading 319000000 reads at 7:24916611 and skipping 251993049
+NOTICE [2020/10/14 00:04:33] - Reading 320000000 reads at 7:42917654 and skipping 252613435
+NOTICE [2020/10/14 00:04:35] - Reading 730000 variants at 7:45537938, Skipping 499609, Missing 0.
+NOTICE [2020/10/14 00:04:38] - Reading 322000000 reads at 7:76505494 and skipping 254019469
+NOTICE [2020/10/14 00:04:39] - Reading 740000 variants at 7:92324596, Skipping 506219, Missing 0.
+NOTICE [2020/10/14 00:04:44] - Reading 324000000 reads at 7:105057732 and skipping 255464721
+NOTICE [2020/10/14 00:04:48] - Reading 750000 variants at 7:129278659, Skipping 513440, Missing 0.
+NOTICE [2020/10/14 00:05:00] - Reading 328000000 reads at 7:142792689 and skipping 257994825
+NOTICE [2020/10/14 00:05:04] - Reading 760000 variants at 7:158827270, Skipping 520462, Missing 0.
+NOTICE [2020/10/14 00:05:05] - Reading 770000 variants at 8:20625971, Skipping 526636, Missing 0.
+NOTICE [2020/10/14 00:05:07] - Reading 330000000 reads at 8:30077409 and skipping 259223089
+NOTICE [2020/10/14 00:05:10] - Reading 331000000 reads at 8:47546948 and skipping 259798290
+NOTICE [2020/10/14 00:05:12] - Reading 332000000 reads at 8:58573073 and skipping 260661099
+NOTICE [2020/10/14 00:05:13] - Reading 780000 variants at 8:63056052, Skipping 533625, Missing 0.
+NOTICE [2020/10/14 00:05:15] - Reading 333000000 reads at 8:78549356 and skipping 261285319
+NOTICE [2020/10/14 00:05:23] - Reading 790000 variants at 8:106675470, Skipping 540358, Missing 0.
+NOTICE [2020/10/14 00:05:24] - Reading 338000000 reads at 8:117523399 and skipping 265322334
+NOTICE [2020/10/14 00:05:28] - Reading 800000 variants at 8:142510651, Skipping 546931, Missing 0.
+NOTICE [2020/10/14 00:05:34] - Reading 810000 variants at 9:21077313, Skipping 553573, Missing 0.
+NOTICE [2020/10/14 00:05:41] - Reading 344000000 reads at 9:77205396 and skipping 269541447
+NOTICE [2020/10/14 00:05:43] - Reading 345000000 reads at 9:88324475 and skipping 270420525
+NOTICE [2020/10/14 00:05:43] - Reading 820000 variants at 9:88837481, Skipping 559932, Missing 0.
+NOTICE [2020/10/14 00:05:48] - Reading 830000 variants at 9:121725110, Skipping 566617, Missing 0.
+NOTICE [2020/10/14 00:05:54] - Reading 349000000 reads at 9:132038540 and skipping 273266596
+NOTICE [2020/10/14 00:05:59] - Reading 353000000 reads at MT:1923 and skipping 276706937
+NOTICE [2020/10/14 00:06:00] - Reading 354000000 reads at MT:2851 and skipping 276714596
+NOTICE [2020/10/14 00:06:08] - Reading 360000000 reads at X:42777504 and skipping 281469633
+NOTICE [2020/10/14 00:06:09] - Reading 361000000 reads at X:70165965 and skipping 282100910
+NOTICE [2020/10/14 00:06:12] - Reading 364000000 reads at X:101391015 and skipping 284452593
+NOTICE [2020/10/14 00:06:14] - Reading 365000000 reads at X:118681527 and skipping 285050131
+NOTICE [2020/10/14 00:06:16] - Reading 367000000 reads at X:130408801 and skipping 286796349
+NOTICE [2020/10/14 00:11:03] - WARNING: Suppressed a total of 13612 UMI warnings...
+NOTICE [2020/10/14 00:11:03] - WARNING: Suppressed a total of 4400503 droplet/cell barcode warnings...
+NOTICE [2020/10/14 00:11:03] - Finished reading 264937 markers from the VCF file
+NOTICE [2020/10/14 00:11:03] - Total number input reads : 652997471
+NOTICE [2020/10/14 00:11:03] - Total number of read-QC-passed reads : 81222657 
+NOTICE [2020/10/14 00:11:03] - Total number of skipped reads with ignored barcodes : 35885052
+NOTICE [2020/10/14 00:11:03] - Total number of non-skipped reads with considered barcodes : 40000199
+NOTICE [2020/10/14 00:11:03] - Total number of gapped/noninformative reads : 39655867
+NOTICE [2020/10/14 00:11:03] - Total number of base-QC-failed reads : 6188
+NOTICE [2020/10/14 00:11:03] - Total number of redundant reads : 292925
+NOTICE [2020/10/14 00:11:03] - Total number of pass-filtered reads : 45219
+NOTICE [2020/10/14 00:11:03] - Total number of pass-filtered reads overlapping with multiple SNPs : 1514
+NOTICE [2020/10/14 00:11:03] - Starting to prune out cells with too few reads...
+NOTICE [2020/10/14 00:11:03] - Finishing pruning out 0 cells with too few reads...
+NOTICE [2020/10/14 00:11:03] - Starting to identify best matching individual IDs
+NOTICE [2020/10/14 00:11:03] - Processing 10000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 20000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 30000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 40000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 50000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 60000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 70000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 80000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 90000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 100000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 110000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 120000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 130000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 140000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 150000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 160000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 170000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 180000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 190000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 200000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 210000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 220000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 230000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 240000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 250000 markers...
+NOTICE [2020/10/14 00:11:03] - Processing 260000 markers...
+NOTICE [2020/10/14 00:11:03] - Identifying best-matching individual..
+NOTICE [2020/10/14 00:11:03] - Finished processing 735 droplets total
+NOTICE [2020/10/14 00:11:03] - Processing 0 cells..
+NOTICE [2020/10/14 00:11:03] - Processing 100 cells..
+NOTICE [2020/10/14 00:11:03] - Processing 200 cells..
+NOTICE [2020/10/14 00:11:03] - Processing 300 cells..
+NOTICE [2020/10/14 00:11:03] - Processing 400 cells..
+NOTICE [2020/10/14 00:11:03] - Processing 500 cells..
+NOTICE [2020/10/14 00:11:03] - Processing 600 cells..
+NOTICE [2020/10/14 00:11:03] - Processing 700 cells..
+NOTICE [2020/10/14 00:11:03] - Finished writing output files

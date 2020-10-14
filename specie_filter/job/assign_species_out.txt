@@ -1,0 +1,39 @@
+### --- Performing the assignment of species --- ###
+001_10x_014_Shilpi_1_22Jul19_RA 
+1366 classified
+
+002_10x_014_Shilpi_1_22Jul19 
+1483 classified
+
+003_10x_014_Shilpi_2_23Jul19 
+3641 classified
+
+004_10x_014_Shilpi_3_24Jul19 
+2141 classified
+
+          used  (Mb) gc trigger   (Mb)  max used   (Mb)
+Ncells 2011464 107.5    4004648  213.9   2594410  138.6
+Vcells 3441645  26.3  378485191 2887.7 468340467 3573.2
+               cell_name                    library_name species
+   1: AAACGCTAGGGTAGCT-1 001_10x_014_Shilpi_1_22Jul19_RA   human
+   2: AAACGCTAGTCATGCT-1 001_10x_014_Shilpi_1_22Jul19_RA   mouse
+   3: AAAGAACCATTACGGT-1 001_10x_014_Shilpi_1_22Jul19_RA   mouse
+   4: AAAGAACGTCTTGGTA-1 001_10x_014_Shilpi_1_22Jul19_RA   human
+   5: AAAGAACTCCCTATTA-1 001_10x_014_Shilpi_1_22Jul19_RA   mouse
+  ---                                                           
+8627: TTTGGAGTCCTCTTTC-1    004_10x_014_Shilpi_3_24Jul19   human
+8628: TTTGGTTAGTATGTAG-1    004_10x_014_Shilpi_3_24Jul19   human
+8629: TTTGGTTGTTTCACTT-1    004_10x_014_Shilpi_3_24Jul19   human
+8630: TTTGGTTTCCCGGTAG-1    004_10x_014_Shilpi_3_24Jul19   human
+8631: TTTGTTGAGTCCTGTA-1    004_10x_014_Shilpi_3_24Jul19   human
+
+human mouse 
+ 5225  3406 
+                                 
+                                  human mouse
+  001_10x_014_Shilpi_1_22Jul19_RA   662   704
+  002_10x_014_Shilpi_1_22Jul19      749   734
+  003_10x_014_Shilpi_2_23Jul19     1805  1836
+  004_10x_014_Shilpi_3_24Jul19     2009   132
+Job completed! 
+ Check for errors if any.
