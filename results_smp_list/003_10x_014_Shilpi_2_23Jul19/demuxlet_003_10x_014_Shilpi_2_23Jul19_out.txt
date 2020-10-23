@@ -1,0 +1,40 @@
+### --- Performing deconvolution of Data --- ###
+Job completed! \n Check for errors if any.
+
+         ----- Job Summary Statistics -----
+                    Queue: default                  
+                   Job ID: 3744671.herman.hpc.lji.org
+                 Job Name: demuxlet_003_10x_014_Shilpi_2_23Jul19
+                Node name: compute-0-11.hpc.lji.org 
+Job duration on this node: 00:59:01                 
+          Node Multiplier: 0.425                    
+      Normalized walltime: 00:25:05                 
+
+Job Requested resources:
+    nodes=1:ppn=10,mem=40gb,walltime=12:00:00,neednodes=1:ppn=10
+Used resources (as reported by Torque):
+    cput=00:58:26,vmem=224608kb,walltime=00:25:05,mem=103592kb,energy_used=0
+
+
+Additional Statistics (cgroup stats):
+
+CPU core numbers on node assigned for usage: 0-9
+CPU work distribution:
+CPU Core #0: 16.73%
+CPU Core #1: 8.08%
+CPU Core #2: 22.85%
+CPU Core #3: 12.69%
+CPU Core #4: 14.49%
+CPU Core #5: 5.68%
+CPU Core #6: 0.42%
+CPU Core #7: 3.87%
+CPU Core #9: 15.14%
+
+Memory requested: 40960 MB
+Memory used:      39414 MB
+Swap used:        0 MB
+
+Number times max memory limit reached or attempted to exceed: 0
+
+Max Memory Used / Memory Requested: 96.2258%
+

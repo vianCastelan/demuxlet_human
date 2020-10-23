@@ -55,7 +55,7 @@ opt <- parse_args(optparse)
 opt$bestsdir <- "/mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/demuxlet_human/R_visualization/best_files"
 # opt$metadata <- "/mnt/BioAdHoc/Groups/vd-vijay/cramirez/asthma/raw/10X/AS3Esm/AS3Esm_aggr_groups.csv"
 opt$metadata <- "/mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/demuxlet_human/R_visualization/R_seurat_object/Human.all_tissue.20K_cells.res_0.8.PC_18.seurat.object.RData"
-#opt$output <- "/mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/demuxlet/R_visualization/human_NV016_10x_014_deconvolution"
+opt$output <- "/mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/demuxlet_human/R_visualization/deconvolution.csv"
 #opt$aggr10x <- "/mnt/BioAdHoc/Groups/vd-vijay/cramirez/hayley/raw/NV016/10x_014/COUNTSh/AGGR/MAIT_mapped/outs/aggregation.csv"
 # opt$metadonor <- '/mnt/BioHome/ciro/asthma/info/patients_posteriori.csv'
 #opt$libnames<-"/mnt/BioAdHoc/Groups/vd-vijay/vcastelan/genotyping/2trial/run_pipeline/2.Clean_plink_file/results/demuxlet_human/R_visualization/libnames.txt"
